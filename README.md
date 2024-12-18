@@ -11,7 +11,7 @@ This is a simple example project for visionOS, aiming to explore the possibiliti
 
 ### Getting Started
 - Clone the repository using ```git clone https://github.com/LunarisTeam/Dicom3DTest```
-- Open SimpleSpace.xcodeproj
+- Open Dicom3DTest.xcodeproj
 - Build the application
 - Enjoy
 
