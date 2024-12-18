@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct TestApp: App {
+struct Dicom3DTest: App {
     
     @State private var model = ViewModel()
     

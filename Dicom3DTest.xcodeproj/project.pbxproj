@@ -11,27 +11,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7F17D8D72D0856BE00930B67 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F17D8D72D0856BE00930B67 /* Dicom3DTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dicom3DTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F17D8DB2D0856BF00930B67 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		7F17D8E82D0856BF00930B67 /* Exceptions for "Test" folder in "Test" target */ = {
+		7F17D8E82D0856BF00930B67 /* Exceptions for "Dicom3DTest" folder in "Dicom3DTest" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				Resources/Info.plist,
 			);
-			target = 7F17D8D62D0856BE00930B67 /* Test */;
+			target = 7F17D8D62D0856BE00930B67 /* Dicom3DTest */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		7F17D8D92D0856BE00930B67 /* Test */ = {
+		7F17D8D92D0856BE00930B67 /* Dicom3DTest */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				7F17D8E82D0856BF00930B67 /* Exceptions for "Test" folder in "Test" target */,
+				7F17D8E82D0856BF00930B67 /* Exceptions for "Dicom3DTest" folder in "Dicom3DTest" target */,
 			);
-			path = Test;
+			path = Dicom3DTest;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -51,7 +51,7 @@
 		7F17D8CE2D0856BE00930B67 = {
 			isa = PBXGroup;
 			children = (
-				7F17D8D92D0856BE00930B67 /* Test */,
+				7F17D8D92D0856BE00930B67 /* Dicom3DTest */,
 				7F17D8DA2D0856BF00930B67 /* Packages */,
 				7F17D8D82D0856BE00930B67 /* Products */,
 			);
@@ -60,7 +60,7 @@
 		7F17D8D82D0856BE00930B67 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7F17D8D72D0856BE00930B67 /* Test.app */,
+				7F17D8D72D0856BE00930B67 /* Dicom3DTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7F17D8D62D0856BE00930B67 /* Test */ = {
+		7F17D8D62D0856BE00930B67 /* Dicom3DTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F17D8E92D0856BF00930B67 /* Build configuration list for PBXNativeTarget "Test" */;
+			buildConfigurationList = 7F17D8E92D0856BF00930B67 /* Build configuration list for PBXNativeTarget "Dicom3DTest" */;
 			buildPhases = (
 				7F17D8D32D0856BE00930B67 /* Sources */,
 				7F17D8D42D0856BE00930B67 /* Frameworks */,
@@ -89,14 +89,14 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				7F17D8D92D0856BE00930B67 /* Test */,
+				7F17D8D92D0856BE00930B67 /* Dicom3DTest */,
 			);
-			name = Test;
+			name = Dicom3DTest;
 			packageProductDependencies = (
 				7F17D8DC2D0856BF00930B67 /* RealityKitContent */,
 			);
 			productName = Test;
-			productReference = 7F17D8D72D0856BE00930B67 /* Test.app */;
+			productReference = 7F17D8D72D0856BE00930B67 /* Dicom3DTest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -114,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7F17D8D22D0856BE00930B67 /* Build configuration list for PBXProject "Test" */;
+			buildConfigurationList = 7F17D8D22D0856BE00930B67 /* Build configuration list for PBXProject "Dicom3DTest" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -128,7 +128,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7F17D8D62D0856BE00930B67 /* Test */,
+				7F17D8D62D0856BE00930B67 /* Dicom3DTest */,
 			);
 		};
 /* End PBXProject section */
@@ -161,7 +161,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Test/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 8Z4W25U7W4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -187,7 +187,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Test/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 8Z4W25U7W4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -328,7 +328,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7F17D8D22D0856BE00930B67 /* Build configuration list for PBXProject "Test" */ = {
+		7F17D8D22D0856BE00930B67 /* Build configuration list for PBXProject "Dicom3DTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7F17D8EC2D0856BF00930B67 /* Debug */,
@@ -337,7 +337,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F17D8E92D0856BF00930B67 /* Build configuration list for PBXNativeTarget "Test" */ = {
+		7F17D8E92D0856BF00930B67 /* Build configuration list for PBXNativeTarget "Dicom3DTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7F17D8EA2D0856BF00930B67 /* Debug */,
